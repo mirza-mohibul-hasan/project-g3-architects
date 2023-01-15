@@ -380,10 +380,6 @@ Dept. of CSE, JUST
     color: #424242;
 }
 
-.hide {
-    display: none;
-}
-
 /* Responsive for Mobile Device */
 @media screen and (max-width:576px) {
     .navigation {
@@ -493,18 +489,17 @@ Dept. of CSE, JUST
     .contact-subscribe {
         flex-direction: column;
     }
-
-    .copy-right {
-        margin: 30px 10px 10px 20px;
-        padding: 10px;
-        text-align: center;
-    }
-
     .future {
         width: 100%;
     }
 
     .subscribe {
         width: 100%;
+    }
+
+    .copy-right {
+        margin: 30px 10px 10px 20px;
+        padding: 10px;
+        text-align: center;
     }
 }
