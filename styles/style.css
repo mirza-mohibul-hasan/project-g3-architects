@@ -68,10 +68,11 @@ Dept. of CSE, JUST
     margin-bottom: 60px;
 }
 
+
 .banner-image>img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* main body styles */
@@ -407,6 +408,9 @@ Dept. of CSE, JUST
     }
     .banner-title{
         font-size: 45px;
+    }
+    .banner-image>img{
+        padding-bottom: 10px;
     }
 
     .quick-list {
