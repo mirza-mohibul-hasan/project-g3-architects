@@ -23,7 +23,7 @@
     font-size: 45px;
 }
 
-.links ul {
+.links-container {
     display: flex;
     list-style: none;
     gap: 30px;
@@ -231,11 +231,6 @@
     display: flex;
     justify-content: space-around;
 }
-
-/* .records{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-} */
 .record {
     border: 1px solid #FF900E;
     border-radius: 8px;
@@ -397,10 +392,13 @@
         font-size: 35px;
         padding: 20px;
     }
-    .links ul{
-        padding: 20px 0;
-        gap: 30px;
-        font-size: 18px;
+    .links-container{
+        padding:5px;
+        gap: 10px;
+        font-size: 20px;
+        flex-direction: column;
+        color: #424242;
+        text-align: center;
     }
 
     .banner {
@@ -451,6 +449,8 @@
         height: auto;
         width: auto;
         padding: 20px 25px;
+        margin-left: 45%;
+        margin-right: 45%;
     }
 
     .some-fact-section {
